@@ -1,0 +1,185 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider-content {
+        margin-left: 30px;
+    }
+    .slider-arrow button.slick-arrow {
+        left: 30px;
+    }
+    .slider-arrow button.slick-next {
+        left: auto;
+        right: 50px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .quote-btn {
+        display: none;
+    }
+    .main-menu nav ul li {
+        margin-right: 40px;
+    }
+    .theme-bg {
+        margin-bottom: -85px;
+    }
+    .services-area .section-title span {
+        display: block;
+        margin: 0;
+    }
+    .pd {
+        padding: 50px;
+    }
+    .faq-thumb img {
+        margin: 0;
+    }
+    .read-more {
+        top: 15px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-message span {
+        font-size: 13px;
+    }
+    .single-cta {
+        margin-left: 30px;
+    }
+    .quote-btn {
+        display: none;
+    }
+    .pr-55 {
+        padding-right: 0px;
+    }
+    .main-menu nav ul li {
+        margin-right: 14px;
+    }
+    .pl-55 {
+        padding-left: 30px;
+    }
+    .theme-bg {
+        margin-bottom: -85px;
+    }
+    .section-title h3 {
+        margin-bottom: 30px;
+    }
+    .single-feature h3 {
+        font-size: 19px;
+    }
+    .services-active {
+        padding-top: 30px;
+    }
+    .contact-form-wrapper {
+        margin-top: 70px;
+    }
+    .brand-area {
+        padding-top: 180px;
+    }
+    .faq-thumb img {
+       margin-left: 0;
+       margin-bottom: 45px;
+    }
+    .latest-single-blog {
+        margin-bottom: 30px;
+    }
+    .single-widget {
+        margin-bottom: 40px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .welcome-message {
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .social-link.f-right {
+        float: none;
+        text-align: center;
+    }
+    .mobile-menu-bg {
+        background: transparent;
+        margin-bottom: 0;
+    }
+    .welcome-message {
+        margin-top: 15px;
+    }
+    .pr-55 {
+        padding-right: 0;
+    }
+    .pl-55 {
+        padding-left: 0;
+    }
+    .slider-content h2 {
+        font-size: 38px;
+    }
+    .single-slider {
+        height: 600px;
+    }
+    .section-title h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+    }
+    .single-feature:last-child {
+        margin-bottom: 0px;
+    }
+    .video-content-wrapper h2 {
+        font-size: 38px;
+    }
+    .faq-thumb img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .read-more {
+        top: 20px;
+    }
+    .single-widget {
+        margin-bottom: 30px;
+    }
+    .single-widget-mt {
+        margin-top: 30px;
+    }
+    .copyright-info {
+        margin-bottom: 8px;
+    }
+    .nice-select {
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 0;
+    }
+    .contact-form-wrapper form input {
+        padding-left: 18px;
+        font-size: 14px;
+    }
+    .contact-form-wrapper textarea {
+        padding-left: 22px;
+        padding-top: 15px;
+    }
+    .contact-form-wrapper .submit-btn {
+        padding: 20px 62px;
+    }
+    .faq-accordion-wrapper .card-header h2 button.btn-link:after {
+        right: 10px;
+        top: 30px;
+    }
+    .faq-accordion-wrapper .card-header h2 button {
+        font-size: 17px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
